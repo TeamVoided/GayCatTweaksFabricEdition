@@ -7,9 +7,11 @@
     "fabric-datagen": [
       {
         "adapter": "kotlin",
-        "value": "org.teamvoided.template.datagen.TemplateData"
+        "value": "org.teamvoided.gaycat.datagen.GayCatTweaksData"
       }
     ]
   },
-  "mixins": [ "template.datagen.mixins.json" ]
+  "mixins": [
+    "gaycat_tweaks.datagen.mixins.json"
+  ]
 }

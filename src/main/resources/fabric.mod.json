@@ -9,24 +9,24 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "org.teamvoided.template.Template::init"
+        "value": "org.teamvoided.gaycat.GayCatTweaks::init"
       }
     ],
     "client": [
       {
         "adapter": "kotlin",
-        "value": "org.teamvoided.template.client.TemplateClient::init"
+        "value": "org.teamvoided.gaycat.client.GayCatTweaksClient::init"
       }
     ]
   },
   "mixins": [
-    "template.mixins.json",
+    "gaycat_tweaks.mixins.json",
     {
-      "config": "template.client.mixins.json",
+      "config": "gaycat_tweaks.client.mixins.json",
       "environment": "client"
     }
   ],
-  "accessWidener": "template.classtweaker",
+  "accessWidener": "gaycat_tweaks.classtweaker",
   "depends": {
     "java": ">=${java}",
     "minecraft": "${version_range}",
@@ -42,5 +42,5 @@
     "discord": "${discord_invite}"
   },
   "license": "${license}",
-  "icon": "assets/template/icon.png"
+  "icon": "assets/gaycat_tweaks/icon.png"
 }

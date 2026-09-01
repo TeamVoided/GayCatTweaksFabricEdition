@@ -1,9 +1,9 @@
-mod_name = "Team Voided Template"
-mod_id = "template"
+mod_name = "GayCatTweaks - Fabric Edition"
+mod_id = "gaycat_tweaks"
 mod_group = "org.teamvoided"
 mod_version = "1.0.0"
-mod_description = "Template Mod Description"
-github_repo = "Teamvoided/TeamVoidedTemplateMod"
+mod_description = "QoL Tweaks for GayCatSMP"
+github_repo = "Teamvoided/GayCatTweaks"
 discord_invite = "https://discord.gg/KZ5Q364hEg"
 authors = [ "TheEnderCore" ]
 license = "MIT"

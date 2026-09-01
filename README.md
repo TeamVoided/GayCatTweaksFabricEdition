@@ -1,2 +1,2 @@
-# The TeamVoided Template
-Template mod by TeamVoided
+# GayCat Tweaks - Fabric Edition
+very gay!
